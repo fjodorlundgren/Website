@@ -1,0 +1,58 @@
+.drones__container {
+    color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+.drone__content {
+    margin-top: 8rem;
+}
+
+.header__drones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.drone {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.capabilities {}
+
+img {
+    border-radius: 2rem;
+    min-width: 50vw;
+}
+
+.drone-image {
+    order: 2;
+}
+
+.drone__text {
+    /* justify-content: center; */
+}
+
+.capabilities {
+    margin-top: 5rem;
+}
+
+.capability {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.8rem;
+}
+
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
+
+@media screen and (max-width:1024px) {}
+
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ===============*/
+
+@media screen and (max-width:600px) {}

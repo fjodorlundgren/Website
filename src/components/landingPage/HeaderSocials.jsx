@@ -1,0 +1,15 @@
+import React from 'react'
+import {FiYoutube} from 'react-icons/fi'
+import {FiInstagram} from 'react-icons/fi'
+import {AiOutlineLinkedin} from 'react-icons/ai'
+ const HeaderSocials = () => {
+  return (
+    <div className="header__socials">
+        <a href="https://www.youtube.com/channel/UCYPE2ipQpWZ-x2eeVfNNMLg/about"><FiYoutube size={20}/></a>
+        <a href="https://www.linkedin.com/in/fjodor-lundgren-785396215/"><AiOutlineLinkedin size={20}/></a>
+        <a href="https://instagram.com/fjodorlundgren"><FiInstagram size={20}/></a>
+    </div>
+  )
+}
+
+export default HeaderSocials
