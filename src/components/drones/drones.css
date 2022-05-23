@@ -50,7 +50,11 @@ img {
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+    .drone {
+        flex-direction: column-reverse;
+    }
+}
 
 
 /* ================== MEDIA QUERIES (SMALL DEVICES) ===============*/
