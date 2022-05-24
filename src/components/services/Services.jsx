@@ -9,7 +9,7 @@ const Services = () => {
       <div className="container services__container">
         <div className="header__services">
           <h2>
-             Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnehmen welche kommerziellen Drohnen einfach nicht mithalten können. Nicht nur Cinematische Präzissionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV Drohnenaufnahmen  verleihen den besonderen Wow-Effekt für Ihr Film Projekt.
+          Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnahmen, an die kommerzielle Drohnen nicht herankommen können. Nicht nur cinematische Präzissionsflüge durch die kleinsten Zwischenräume, sondern auch waghalsige Flugmanöver innerhalb von Gebäuden sind möglich. DFLY Camera bringt jahrelange Erfahrung, Zertifizierung als Drohnenpilot und hohe Präzission mit um den besonderen Wow-Effekt für Ihr Filmprojekt zu ermöglichen.
           </h2>
         </div>
         <div className="headline__services">
