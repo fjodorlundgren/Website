@@ -8,9 +8,9 @@ const Services = () => {
     <section id='services'>
       <div className="container services__container">
         <div className="header__services">
-          <h3>
-             Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnehmen welche kommerziellen Drohnen nicht mithalten können. Die neuen FPV Drohnen ermöglichen Flugbahnen durch kleinste Spalten und gleichzeitig 
-          </h3>
+          <h2>
+             Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnehmen welche kommerziellen Drohnen einfach nicht mithalten können. Nicht nur Cinematische Präzissionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV Drohnenaufnahmen  verleihen den besonderen Wow-Effekt für Ihr Film Projekt.
+          </h2>
         </div>
         <div className="headline__services">
           <h1>Was bietet DFLY Camera?</h1>
@@ -44,6 +44,11 @@ const Services = () => {
               </a>
             </div>
         </div> */}
+        <div className="services__footer">
+          <h3>
+            
+          </h3>
+        </div>
       </div>
 
     </section>

@@ -12,6 +12,7 @@ import {BiTransfer} from "react-icons/bi"
 import {GrShieldSecurity} from "react-icons/gr"
 import {BsFillPeopleFill} from "react-icons/bs"
 import {FaFeather} from "react-icons/fa"
+import {BsFillLightningChargeFill} from "react-icons/bs"
 
 const Drones = () => {
   return (
@@ -23,7 +24,7 @@ const Drones = () => {
         </div>
         <article className='drone__content'>
           <div className="drone__head">
-            <h2>Cine Race</h2>
+            <h2>Cine Race Drohne</h2>
           </div>
           <div className="drone">
             <div className="drone-image">
@@ -34,7 +35,7 @@ const Drones = () => {
             <div className="capabilities">
             <div className="capability">
             <IoIosSpeedometer size={28} className='experience__details-icon'/>
-            <h3>150 km/h</h3>
+            <h3>160 km/h</h3>
             </div>
             <div className="capability">
             <MdHighQuality size={28} className='experience__details-icon'/>
@@ -45,7 +46,7 @@ const Drones = () => {
             <h3>Akrobatisch</h3>
             </div>
             <div className="capability">
-            <GiRaceCar size={30} className='experience__details-icon'/>
+            <BsFillLightningChargeFill size={30} className='experience__details-icon'/>
             <h3>0-100 km/h in 1.5s</h3>
             </div>
             </div>
@@ -55,7 +56,7 @@ const Drones = () => {
         </article>
         <article className='drone__content'>
           <div className="drone__head">
-            <h2>Cinewhoop / Freestyle</h2>
+            <h2>Cinewhoop Drohne XL</h2>
           </div>
           <div className="drone">
             <div className="drone-image">
@@ -77,7 +78,6 @@ const Drones = () => {
             <h3>Freestyle/Cinewhoop</h3>
             </div>
             <div className="capability">
-            <BsPatchCheckFill size={28} className='experience__details-icon'/>
             <h3></h3>
             </div>
             </div>
@@ -86,7 +86,7 @@ const Drones = () => {
         </article>
         <article className='drone__content'>
           <div className="drone__head">
-            <h2>Cinewhoop</h2>
+            <h2>Cinewhoop Drohne </h2>
           </div>
           <div className="drone">
             <div className="drone-image">
