@@ -29,11 +29,17 @@ header {
 
 /* ============ CTA==========*/
 
+.cta-button {
+    font-size: small;
+    font-weight: 500;
+}
+
 .cta {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    color: var(--color-bg);
 }
 
 
@@ -90,6 +96,7 @@ header {
     left: 0;
     background: rgba(0, 0, 0, 0);
     background-image: url(../../assets/grid.png);
+    opacity: 0.8;
     color: #f1f1f1;
     width: 100%;
     height: 100%;
@@ -121,6 +128,9 @@ header {
         font-size: 11.86vw;
     }
     .header__container h3 {
-        font-size: 5.46vw
+        font-size: 6vw
+    }
+    .filterGrid {
+        opacity: 0.3;
     }
 }
