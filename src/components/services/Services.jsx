@@ -10,7 +10,7 @@ const Services = () => {
         <div className="header__services">
           <h1>Was sind FPV Drohnenaufnahmen?</h1>
           <h2>
-          Die neue Drohnentechnik FPV ermöglicht nie dagewesene Perspektiven und Aufnahmen, an die kommerzielle Drohnen nicht herankommen können. Nicht nur cinematische Präzissionsflüge durch die kleinsten Zwischenräume, sondern auch waghalsige Flugmanöver innerhalb von Gebäuden sind möglich. DFLY Camera bringt jahrelange Erfahrung, Zertifizierung als Drohnenpilot und hohe Präzission mit um den besonderen Wow-Effekt für Ihr Filmprojekt zu ermöglichen.
+          Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnehmen welche kommerziellen Drohnen einfach nicht mithalten können. Nicht nur Cinematische Präzissionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV Drohnenaufnahmen verleihen den besonderen Wow-Effekt für Ihr Film Projekt.
           </h2>
         </div>
         <div className="headline__services">
@@ -28,7 +28,7 @@ const Services = () => {
 
           <div className="step__services">
             <GiFilmStrip size={120}/>
-            <h2>Fertigstellung der Aufnahmen durch spezielle Software</h2>
+            <h2>Fertigstellung der Aufnahmen durch spezieller Software</h2>
           </div>
         </div>
         {/* <div className="services__decision">
@@ -46,9 +46,9 @@ const Services = () => {
             </div>
         </div> */}
         <div className="services__footer">
-          <h3>
-            
-          </h3>
+          <h2>
+             DFLY Camera besitzt den EU weiten Drohnenführerschein. Selbstverständlich sind die Drohnen haftpflichtversichert.
+          </h2>
         </div>
       </div>
 

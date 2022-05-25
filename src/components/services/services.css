@@ -40,6 +40,11 @@
     color: var(--color-white);
 }
 
+.services__footer h2 {
+    margin-top: 8rem;
+    text-align: center;
+}
+
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
 
@@ -67,5 +72,8 @@
     .header__services h1 {
         font-size: xx-large;
     }
-    .button__inquiry {}
+    .services__footer h2 {
+        font-size: medium;
+        margin-top: 2rem;
+    }
 }
