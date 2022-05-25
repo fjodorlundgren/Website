@@ -28,7 +28,7 @@
     font-size: xx-large;
 }
 
-.drone__png img {
+img {
     border-radius: 2rem;
     min-width: 50vw;
 }
