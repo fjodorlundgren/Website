@@ -1,5 +1,5 @@
 import desktopVideo from "../../assets/Desktop.mp4"
-import mobileVideo from "../../assets/Mobile.mp4"
+import mobileVideo from "../../assets/Mobile1.m4v"
 import "./landingPage.css"
 
 const getVideoSrc = width => {
