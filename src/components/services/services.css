@@ -1,10 +1,15 @@
 #services {
     color: var(--color-bg);
+    padding-top: 0.1rem;
 }
 
 .header__services {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 4rem auto;
+}
+
+.header__services h2 {
+    margin-top: 2rem;
 }
 
 .headline__services {
@@ -13,8 +18,12 @@
 
 .map__services {
     display: flex;
-    padding: 3rem;
+    padding-top: 4rem;
     text-align: center;
+}
+
+.step__services {
+    margin: 0 2rem;
 }
 
 .services__decision {
@@ -50,6 +59,12 @@
         margin: none;
         justify-content: center;
         margin: 0 2rem;
+    }
+    .header__services h2 {
+        font-size: medium;
+    }
+    .header__services h1 {
+        font-size: xx-large;
     }
     .button__inquiry {}
 }

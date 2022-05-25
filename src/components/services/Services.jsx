@@ -8,8 +8,9 @@ const Services = () => {
     <section id='services'>
       <div className="container services__container">
         <div className="header__services">
+          <h1>Was sind FPV Drohnenaufnahmen?</h1>
           <h2>
-          Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnahmen, an die kommerzielle Drohnen nicht herankommen können. Nicht nur cinematische Präzissionsflüge durch die kleinsten Zwischenräume, sondern auch waghalsige Flugmanöver innerhalb von Gebäuden sind möglich. DFLY Camera bringt jahrelange Erfahrung, Zertifizierung als Drohnenpilot und hohe Präzission mit um den besonderen Wow-Effekt für Ihr Filmprojekt zu ermöglichen.
+          Die neue Drohnentechnik FPV ermöglicht nie dagewesene Perspektiven und Aufnahmen, an die kommerzielle Drohnen nicht herankommen können. Nicht nur cinematische Präzissionsflüge durch die kleinsten Zwischenräume, sondern auch waghalsige Flugmanöver innerhalb von Gebäuden sind möglich. DFLY Camera bringt jahrelange Erfahrung, Zertifizierung als Drohnenpilot und hohe Präzission mit um den besonderen Wow-Effekt für Ihr Filmprojekt zu ermöglichen.
           </h2>
         </div>
         <div className="headline__services">
@@ -18,16 +19,16 @@ const Services = () => {
         <div className="map__services">
           <div className="step__services">
             <RiTreasureMapLine size={120}/>
-            <h3>Gemeinsame Planung & Konzeption des Fluges</h3>
+            <h2>Gemeinsame Planung & Konzeption des Fluges</h2>
           </div>
           <div className="step__services">
             <GiVideoCamera size={120}/>
-            <h3>Durchführung des Fluges durch präzise Flugmanöver</h3>
+            <h2>Durchführung des Fluges durch präzise Flugmanöver</h2>
           </div>
 
           <div className="step__services">
             <GiFilmStrip size={120}/>
-            <h3>Fertigstellung der Aufnahmen durch spezielle Software</h3>
+            <h2>Fertigstellung der Aufnahmen durch spezielle Software</h2>
           </div>
         </div>
         {/* <div className="services__decision">
