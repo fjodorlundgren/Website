@@ -68,11 +68,10 @@ img {
         flex-direction: column-reverse;
     }
     .capabilities {
-        margin-top: 0rem;
+        margin-top: 1rem;
     }
     .drone__text {
         margin: 1rem auto;
-        align-items: center;
     }
 }
 
@@ -82,5 +81,8 @@ img {
 @media screen and (max-width:600px) {
     #drones {
         padding-top: 5rem;
+    }
+    .drone__text {
+        align-items: center;
     }
 }
