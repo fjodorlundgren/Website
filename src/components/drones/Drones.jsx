@@ -20,7 +20,7 @@ const Drones = () => {
       <div className="container drones__container">
         <div className="header__drones">
       <h1>Wie werden die Aufnahmen umgesetzt?</h1>
-      <h3>Von Aufnahmen vom Sturzflug eines Gebäudes bis zum Durchfliegen kleinster Löcher sind wir für alle Aufträge mit einer passenden Drohne gewappnet. Es darf am Ende nur nicht an Vorstellungskraft fehlen.</h3>
+      <h3>Von Aufnahmen vom Sturzflug eines Gebäudes bis zum Durchfliegen kleinster Löcher sind wir für alle Aufträge mit einer passenden Drohne gewappnet. <br/> Es darf am Ende nur nicht an Vorstellungskraft fehlen.</h3>
         </div>
         <article className='drone__content'>
           <div className="drone__head">
@@ -31,7 +31,7 @@ const Drones = () => {
               <img src={Drone1} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
-            <p>Dank der Extremen Power kann die Drohne die waaghalsigsten Sturzflüge, Saltos Manöver ausführen. Dabei erreicht die Drohne Geschwindigkeiten von bis zu 160 km/h in nur wenigen Sekunden Beschleunigung. Verfolgung von Autos, Aufnahmen von Immobilien die Drohne ist für alle Outdoor gewapnet. Dabei nimmt die Drohne hochauflösende Videos in 4k mithilfe der Gopro auf.</p>
+            <p>Dank der extremen Power kann die Drohne die waghalsigsten Sturzflüge, Saltos und Manöver ausführen. Dabei erreicht die Drohne Geschwindigkeiten von bis zu 160 km/h in nur wenigen Sekunden Beschleunigung. Verfolgung von Autos, Aufnahmen von Immobilien: die Drohne ist für alle Outdoor Einsätze gewappnet. Dabei nimmt die Drohne hochauflösende Videos in 4k mithilfe der Gopro auf.</p>
             <div className="capabilities">
             <div className="capability">
             <IoIosSpeedometer size={28} className='experience__details-icon'/>
@@ -93,7 +93,7 @@ const Drones = () => {
               <img src={Drone3} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
-            <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, jedoch sollte man die Drohne aufkeinem Fall unterschätzen. Dank der Stripped Gopro nimmt die Drohne aufnahmen bis zu 4k 60 fps im Log Format auf und tut dieses fast unhörbar.Dank dem kleinem Formfaktor und niedrigem Gewicht kann die Drohne ohne Bedenken um Menschen eingesetzt werden.</p>
+            <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, jedoch sollte man die Drohne auf keinen Fall unterschätzen. Dank der Stripped Gopro macht die Drohne Aufnahmen mit bis zu 4k 60 fps im Log-Format und tut dieses fast unhörbar. Dank dem kleinen Formfaktor und niedrigen Gewicht kann die Drohne ohne Sicherheitsbedenken um Menschen eingesetzt werden.</p>
             <div className="capabilities">
             <div className="capability">
             <IoIosSpeedometer size={28} className='experience__details-icon'/>
@@ -105,7 +105,7 @@ const Drones = () => {
             </div>
             <div className="capability">
             <BsFillPeopleFill size={28} className='experience__details-icon'/>
-            <h3>Sicher um Menschen</h3>
+            <h3>Unbedenklich um Menschen</h3>
             </div>
             <div className="capability">
             <FaFeather size={28} className='experience__details-icon'/>

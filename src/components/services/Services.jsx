@@ -10,7 +10,7 @@ const Services = () => {
         <div className="header__services">
           <h1>Was sind FPV Drohnenaufnahmen?</h1>
           <h2>
-          Neue Drohnentechnik ermöglichen nie dagewesene Perspektiven und Aufnehmen welche kommerziellen Drohnen einfach nicht mithalten können. Nicht nur Cinematische Präzissionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV Drohnenaufnahmen verleihen den besonderen Wow-Effekt für Ihr Film Projekt.
+          Neue Drohnentechnik ermöglicht nie dagewesene Perspektiven und Aufnahmen welche, mit kommerziellen Drohnen einfach nicht mithalten können. Nicht nur cinematische Präzisionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV Drohnenaufnahmen verleihen den besonderen Wow-Effekt für Ihr Filmprojekt.
           </h2>
         </div>
         <div className="headline__services">
@@ -28,7 +28,7 @@ const Services = () => {
 
           <div className="step__services">
             <GiFilmStrip size={120}/>
-            <h2>Fertigstellung der Aufnahmen durch spezieller Software</h2>
+            <h2>Fertigstellung der Aufnahmen durch spezielle Software</h2>
           </div>
         </div>
         {/* <div className="services__decision">
