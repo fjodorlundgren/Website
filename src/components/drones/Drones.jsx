@@ -28,7 +28,7 @@ const Drones = () => {
           </div>
           <div className="drone">
             <div className="drone-image">
-              <img src={Drone1} alt="Freestyle"/>
+              <img src={Drone1} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
             <p>Dank der Extremen Power kann die Drohne die waaghalsigsten Sturzflüge, Saltos Manöver ausführen. Dabei erreicht die Drohne Geschwindigkeiten von bis zu 160 km/h in nur wenigen Sekunden Beschleunigung. Verfolgung von Autos, Aufnahmen von Immobilien die Drohne ist für alle Outdoor gewapnet. Dabei nimmt die Drohne hochauflösende Videos in 4k mithilfe der Gopro auf.</p>
@@ -60,7 +60,7 @@ const Drones = () => {
           </div>
           <div className="drone">
             <div className="drone-image">
-              <img src={Drone2} alt="Freestyle" />
+              <img src={Drone2} alt="Freestyle" className='drone__png' />
             </div>
             <div className="drone__text">
             <p>Der Allrounder kann mit Propellerschützern drinnen oder oder ohne draußen eingesetzt werden. Dabei kann die Drohne Cinematische Flugbahnen nahe Menschen oder mit bis zu 120 km/h akrobatische Saltos ausführen. Dabei nimmt die Drohne doppelte 4k Video streams auf.    </p>
@@ -89,8 +89,8 @@ const Drones = () => {
             <h2>Cinewhoop Drohne </h2>
           </div>
           <div className="drone">
-            <div className="drone-image">
-              <img src={Drone3} alt="Freestyle"/>
+            <div className="drone-image" >
+              <img src={Drone3} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
             <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, jedoch sollte man die Drohne aufkeinem Fall unterschätzen. Dank der Stripped Gopro nimmt die Drohne aufnahmen bis zu 4k 60 fps im Log Format auf und tut dieses fast unhörbar.Dank dem kleinem Formfaktor und niedrigem Gewicht kann die Drohne ohne Bedenken um Menschen eingesetzt werden.</p>
