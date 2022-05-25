@@ -1,5 +1,5 @@
 import React from "react"
-import desktopVideo from "../../assets/Desktop.mp4"
+import desktopVideo from "../../assets/Desktop.m4v"
 import mobileVideo from "../../assets/Mobile1.m4v"
 import thumb from "../../assets/thumbnail.png"
 import "./landingPage.css"
