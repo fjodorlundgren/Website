@@ -110,6 +110,7 @@ header {
     height: 100%;
     width: 100%;
     transition: opacity 400ms ease 0ms;
+    z-index: -2;
 }
 
 .tiny {
