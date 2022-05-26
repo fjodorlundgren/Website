@@ -119,6 +119,14 @@ header {
     transition: visibility 0ms ease 400ms;
 }
 
+.play__button {
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+    top: 2rem;
+    right: 10rem;
+}
+
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ===============*/
 
@@ -148,5 +156,9 @@ header {
     }
     .filterGrid {
         opacity: 0.3;
+    }
+    .play__button {
+        right: 1.5rem;
+        top: 1.5rem;
     }
 }

@@ -4,7 +4,6 @@ import "./nav.css"
 import {GiDeliveryDrone} from "react-icons/gi"
 import {FaHome} from "react-icons/fa"
 import {MdDesignServices} from "react-icons/md"
-import {BsFillPersonFill} from "react-icons/bs"
 import {BiMessageSquareDetail} from "react-icons/bi"
 const Nav =() => {
   const[activeNav, setActiveNav]= useState("/#")
