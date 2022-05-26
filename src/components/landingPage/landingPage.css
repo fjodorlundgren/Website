@@ -120,11 +120,11 @@ header {
 }
 
 .play__button {
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     z-index: 1;
-    top: 2rem;
-    right: 10rem;
+    right: 17rem;
+    top: 1.8rem;
 }
 
 

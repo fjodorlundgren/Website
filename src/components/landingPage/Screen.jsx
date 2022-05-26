@@ -1,11 +1,11 @@
-import React, {useState, useRef} from "react"
-import desktopVideo from "../../assets/Desktop.m4v"
-import mobileVideo from "../../assets/Mobile1.m4v"
-import thumb from "../../assets/thumbnail.png"
-import {AiOutlinePlayCircle} from "react-icons/ai"
-import "./landingPage.css"
+import React, { useState, useRef } from "react";
+import desktopVideo from "../../assets/Desktop.m4v";
+import {AiOutlinePlayCircle} from "react-icons/ai";
+import mobileVideo from "../../assets/Mobile1.m4v";
+import thumb from "../../assets/thumbnail.png";
+import "./landingPage.css";
 
-const getVideoSrc = width => {
+const getVideoSrc = (width) => {
   if (width >= 1080) return desktopVideo;
   if (width >= 600) return mobileVideo;
   return mobileVideo;
@@ -19,11 +19,19 @@ const Video = (props) => {
 
   const onLoadedData = () => {
     setIsVideoLoaded(true);
-    if (videoRef.current.paused) setIsVideoPlaying(false);
+    setTimeout(() => {
+      if (
+        videoRef.current.currentTime === 0 ||
+        videoRef.current.paused ||
+        videoRef.current.ended ||
+        videoRef.current.readyState <= 2
+      )
+        setIsVideoPlaying(false);
+    }, 500);
   };
 
   return (
-    <div className="video__container container">
+    <div className="video__container">
       <img
         src={thumb}
         alt="thumb"
@@ -42,7 +50,9 @@ const Video = (props) => {
         ref={videoRef}
       />
       {!isVideoPlaying && (
-        <AiOutlinePlayCircle className="play__button"  size={42}
+        <AiOutlinePlayCircle
+          size={50}
+          className="play__button"
           onClick={() => {
             videoRef.current.play();
             setIsVideoPlaying(true);
@@ -52,12 +62,8 @@ const Video = (props) => {
     </div> // video loop autoPlay
   );
 };
-  function Screen() {
-    return (
-          <Video  />
-    );
-  }
+function Screen() {
+  return <Video />;
+}
 
 export default Screen;
-
-
