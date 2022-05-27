@@ -31,7 +31,7 @@ const Drones = () => {
               <img src={Drone1} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
-            <p>Dank der extremen Power kann die Drohne die waghalsigsten Sturzflüge, Saltos und Manöver ausführen. Dabei erreicht die Drohne Geschwindigkeiten von bis zu 160 km/h in nur wenigen Sekunden Beschleunigung. Verfolgung von Autos, Aufnahmen von Immobilien: die Drohne ist für alle Outdoor Einsätze gewappnet. Dabei nimmt die Drohne hochauflösende Videos in 4k mithilfe der Gopro auf.</p>
+            <p>Dank der extremen Leistung kann die Drohne die waghalsigsten Sturzflüge, Saltos und Manöver ausführen. Dabei erreicht die Drohne Geschwindigkeiten von bis zu 160 km/h in nur wenigen Sekunden Beschleunigung. Verfolgung von Autos, Aufnahmen von Gebäuden: die Drohne ist für alle Outdoor Einsätze gewappnet. Dabei nimmt die Drohne hochauflösende Videos in 4k mithilfe einer Gopro auf.</p>
             <div className="capabilities">
             <div className="capability">
             <IoIosSpeedometer size={28} className='experience__details-icon'/>
@@ -75,7 +75,7 @@ const Drones = () => {
             </div>
             <div className="capability">
             <BiTransfer size={28} className='experience__details-icon'/>
-            <h3>Freestyle/Cinewhoop</h3>
+            <h3>Präzision/Geschwindigkeit</h3>
             </div>
             <div className="capability">
             <h3></h3>
@@ -93,7 +93,7 @@ const Drones = () => {
               <img src={Drone3} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
-            <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, jedoch sollte man die Drohne auf keinen Fall unterschätzen. Dank der Stripped Gopro macht die Drohne Aufnahmen mit bis zu 4k 60 fps im Log-Format und tut dieses fast unhörbar. Dank dem kleinen Formfaktor und niedrigen Gewicht kann die Drohne ohne Sicherheitsbedenken um Menschen eingesetzt werden.</p>
+            <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, jedoch sollte man die Drohne auf keinen Fall unterschätzen. Dank der Stripped Gopro macht die Drohne Aufnahmen mit bis zu 4k 60 fps im Log-Format und tut dieses fast unhörbar. Dank dem kleinen Formfaktor und niedrigen Gewicht kann die Drohne ohne Sicherheitsbedenken um Menschen und Innenräumen eingesetzt werden.</p>
             <div className="capabilities">
             <div className="capability">
             <IoIosSpeedometer size={28} className='experience__details-icon'/>
@@ -105,7 +105,7 @@ const Drones = () => {
             </div>
             <div className="capability">
             <BsFillPeopleFill size={28} className='experience__details-icon'/>
-            <h3>Unbedenklich um Menschen</h3>
+            <h3>Unbedenklich</h3>
             </div>
             <div className="capability">
             <FaFeather size={28} className='experience__details-icon'/>

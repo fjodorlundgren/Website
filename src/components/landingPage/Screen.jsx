@@ -51,7 +51,7 @@ const Video = (props) => {
       />
       {!isVideoPlaying && (
         <AiOutlinePlayCircle
-          size={50}
+          size={70}
           className="play__button"
           onClick={() => {
             videoRef.current.play();

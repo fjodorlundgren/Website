@@ -8,9 +8,9 @@ const Services = () => {
     <section id='services'>
       <div className="container services__container">
         <div className="header__services">
-          <h1>Was sind FPV Drohnenaufnahmen?</h1>
+          <h1>Was sind FPV-Drohnenaufnahmen?</h1>
           <h2>
-          Neue Drohnentechnik ermöglicht nie dagewesene Perspektiven und Aufnahmen welche, mit kommerziellen Drohnen einfach nicht mithalten können. Nicht nur cinematische Präzisionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV Drohnenaufnahmen verleihen den besonderen Wow-Effekt für Ihr Filmprojekt.
+          Neue Drohnentechnik ermöglicht nie dagewesene Perspektiven und Aufnahmen, welche herkömmliche Kameradrohnen  nicht bieten können. Nicht nur cinematische Präzisionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV-Drohnenaufnahmen verleihen den besonderen Wow-Effekt für Ihr Filmprojekt.
           </h2>
         </div>
         <div className="headline__services">
