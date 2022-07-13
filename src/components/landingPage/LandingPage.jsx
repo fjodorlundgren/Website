@@ -15,7 +15,7 @@ const Header = () => {
     <div className="container header__container">
 
         <h1>FPV-Aufnahmen</h1>
-        <h3 >Einzigartige Perspektiven Ermöglichen</h3>
+        <h3 >Einzigartige Perspektiven ermöglichen</h3>
         <CTA/>
         <HeaderSocials/> 
 
