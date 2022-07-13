@@ -27,7 +27,7 @@ const Video = (props) => {
         videoRef.current.readyState <= 2
       )
         setIsVideoPlaying(false);
-    }, 500);
+    }, 2000);
   };
 
   return (
