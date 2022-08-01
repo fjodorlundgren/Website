@@ -1,8 +1,8 @@
 import React from 'react'
 import "./drones.css"
 
-import Drone1 from "../../assets/drones/DSC00184.jpg"
-import Drone2 from "../../assets/drones/DSC00188.jpg"
+import Drone1 from "../../assets/drones/DSC00184_2.jpg"
+import Drone2 from "../../assets/drones/DSC00188_2.jpg"
 import Drone3 from "../../assets/drones/DSC00196.jpg"
 import {IoIosSpeedometer} from "react-icons/io"
 import {MdHighQuality} from "react-icons/md"
