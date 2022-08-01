@@ -10,7 +10,7 @@ const Services = () => {
         <div className="header__services">
           <h1>Was sind FPV-Drohnenaufnahmen?</h1>
           <h2>
-          Neue Drohnentechnik ermöglicht nie dagewesene Perspektiven und Aufnahmen, welche herkömmliche Kameradrohnen  nicht bieten können. Nicht nur cinematische Präzisionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV-Drohnenaufnahmen verleihen den besonderen Wow-Effekt für Ihr Filmprojekt.
+          Neue Drohnentechnik ermöglicht nie dagewesene Perspektiven und Aufnahmen, die herkömmliche Kameradrohnen  nicht bieten können. Nicht nur cinematische Präzisionsflüge durch die kleinsten Spalten sondern auch waghalsige Flugmanöver von Gebäuden sind möglich. FPV-Drohnenaufnahmen verleihen Ihrem Filmprojekt den besonderen Wow-Effekt.
           </h2>
         </div>
         <div className="headline__services">

@@ -27,21 +27,21 @@ const Contact = () => {
           <article className="contact__option" >
             <MdOutlineEmail size={25} className='contact__option-icon'/>
             <h4>Email</h4>
-            <a>Schick mir eine Email</a>
+            <a>Eine Email schreiben</a>
           </article>
           </a>
           <a href="https://api.whatsapp.com/send?phone=491748127825" target="_blank">
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <a>Schreib mir eine Nachricht</a>
+            <a>Eine Nachricht schreiben</a>
           </article>
           </a>
           <a href="https://www.instagram.com/fjodorlundgren/" target="_blank">
           <article className="contact__option">
             <AiOutlineInstagram size={25} className='contact__option-icon'/>
             <h4>Instagram DM</h4>
-            <a>Schreib mir eine Nachricht</a>
+            <a>Eine DM schreiben</a>
           </article>
           </a>
 

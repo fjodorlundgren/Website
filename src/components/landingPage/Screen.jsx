@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import desktopVideo from "../../assets/Desktop.m4v";
+import desktopVideo from "../../assets/desktop.mp4";
 import {AiOutlinePlayCircle} from "react-icons/ai";
-import mobileVideo from "../../assets/Mobile1.m4v";
+import mobileVideo from "../../assets/mobile.mp4";
 import thumb from "../../assets/thumbnail.png";
 import "./landingPage.css";
 
@@ -27,7 +27,7 @@ const Video = (props) => {
         videoRef.current.readyState <= 2
       )
         setIsVideoPlaying(false);
-    }, 500);
+    }, 2000);
   };
 
   return (
