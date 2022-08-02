@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import desktopVideo from "../../assets/desktop.mp4";
+import desktopVideo from "../../assets/Desktop080222.mp4";
 import {AiOutlinePlayCircle} from "react-icons/ai";
 import mobileVideo from "../../assets/mobile.mp4";
 import thumb from "../../assets/thumbnail.png";
