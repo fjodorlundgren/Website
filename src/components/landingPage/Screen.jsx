@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import desktopVideo from "../../assets/Desktop080222.mp4";
 import {AiOutlinePlayCircle} from "react-icons/ai";
 import mobileVideo from "../../assets/Mobile080222.mp4";
-import thumb from "../../assets/thumbnail.png";
+import thumb from "../../assets/thumbnail.jpg";
 import "./landingPage.css";
 
 const getVideoSrc = (width) => {
