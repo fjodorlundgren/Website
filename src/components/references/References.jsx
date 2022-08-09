@@ -18,7 +18,7 @@ const References = () => {
           </div>
         <div className="full__references btn btn-primary">
           <a href="https://vimeo.com/user145814511" target="_blank">
-              <h3>Zum Gesamtem Portfolio</h3>
+              <h3>Zum gesamtem Portfolio</h3>
 
           </a>
         </div>
