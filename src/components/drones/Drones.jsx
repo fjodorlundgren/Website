@@ -54,7 +54,7 @@ const Drones = () => {
         </article>
         <article className='drone__content'>
           <div className="drone__head">
-            <h2>Cinewhoop Drohne XL</h2>
+            <h2>Cinewhoop Drohne</h2>
           </div>
           <div className="drone">
             <div className="drone-image">
@@ -84,7 +84,7 @@ const Drones = () => {
         </article>
         <article className='drone__content'>
           <div className="drone__head">
-            <h2>Cinewhoop Drohne </h2>
+            <h2>Cinewhoop Drohne Mini </h2>
           </div>
           <div className="drone">
             <div className="drone-image" >

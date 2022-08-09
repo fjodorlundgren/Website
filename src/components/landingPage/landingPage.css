@@ -21,7 +21,7 @@ header {
 .container.logo h2 {
     position: absolute;
     margin-left: 0;
-    top: 1rem;
+    top: 0.5rem;
     font-size: 2.5rem;
     font-weight: 800;
 }
@@ -35,9 +35,10 @@ header {
 }
 
 .cta {
-    margin-top: 1.5rem;
-    display: flex;
-    gap: 1.2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 1rem;
     justify-content: center;
     color: var(--color-bg);
 }

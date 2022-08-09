@@ -3,6 +3,7 @@ import "./landingPage.css"
 import Screen from './Screen'
 import HeaderSocials from './HeaderSocials'
 import CTA from './CTA'
+import { useTranslation } from "react-i18next";
 const Header = () => {
   return (
     <header>
