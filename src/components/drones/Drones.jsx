@@ -91,7 +91,7 @@ const Drones = () => {
               <img src={Drone3} alt="Freestyle" className='drone__png'/>
             </div>
             <div className="drone__text">
-            <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, ist jedoch auf keinen Fall zu unterschätzen. Dank der Stripped Gopro macht die Drohne Aufnahmen mit bis zu 4k 60 fps im Log-Format und tut dies fast unhörbar. Dank dem kleinen Formfaktor und dem niedrigem Gewicht kann die Drohne ohne Sicherheitsbedenken um Menschen und in Innenräumen eingesetzt werden.</p>
+            <p>Der Cinewhoop fällt zwar wegen seiner Größe nicht auf, ist jedoch auf keinen Fall zu unterschätzen. Dank der Stripped Gopro macht die Drohne Aufnahmen mit bis zu 4k 60 fps im Log-Format und tut dies fast unhörbar. Dank des kleines Formfaktors und ihres leichten Gewichts kann die Drohne ohne Sicherheitsbedenken um Menschen und in Innenräumen eingesetzt werden.</p>
             <div className="capabilities">
             <div className="capability">
             <IoIosSpeedometer size={28} className='experience__details-icon'/>
