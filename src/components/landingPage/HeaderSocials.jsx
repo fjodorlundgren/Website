@@ -6,7 +6,7 @@ import {AiOutlineLinkedin} from 'react-icons/ai'
   return (
     <div className="header__socials">
         <a href="https://www.youtube.com/channel/UCYPE2ipQpWZ-x2eeVfNNMLg/about" target="_blank"><FiYoutube size={20}/></a>
-        <a href="https://www.linkedin.com/in/fjodor-lundgren-785396215" target="_blank"><AiOutlineLinkedin size={20}/></a>
+        <a href="https://www.linkedin.com/in/fjodorlundgren" target="_blank"><AiOutlineLinkedin size={20}/></a>
         <a href="https://instagram.com/fjodorlundgren" target="_blank"><FiInstagram size={20}/></a>
     </div>
   )
